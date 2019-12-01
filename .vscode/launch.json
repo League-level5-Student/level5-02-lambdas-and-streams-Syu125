@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LambdaMethods",
+            "request": "launch",
+            "mainClass": "_01_Lambda_Methods.LambdaMethods",
+            "projectName": "Level5-Module2"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LambdaButtons",
+            "request": "launch",
+            "mainClass": "_00_JButtons_with_Lambdas.LambdaButtons",
+            "projectName": "Level5-Module2"
+        }
+    ]
+}
