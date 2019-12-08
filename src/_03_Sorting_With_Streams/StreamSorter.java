@@ -11,14 +11,17 @@ public class StreamSorter {
 			Random rGen = new Random();
 			nums[i] = rGen.nextInt();
 		}
-		
 		//1. Convert the Integer array to Stream object.
-		Stream s = Arrays.stream(nums);
+		Stream <Integer> s = Arrays.stream(nums);
 
 		//2. Use the sorted method of the stream to sort the numbers.
 		s = s.sorted();
+
 		//3. Use the forEach method with a lambda to print all the elements of the sorted Stream.
 		//   They should be in ascending order.
+		s.forEach((i)->{
+			System.out.println(i);
+		});
 		
 	}
 }

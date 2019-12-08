@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StreamSorter",
+            "request": "launch",
+            "mainClass": "_03_Sorting_With_Streams.StreamSorter",
+            "projectName": "Level5-Module2"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - LambdaMethods",
             "request": "launch",
             "mainClass": "_01_Lambda_Methods.LambdaMethods",
